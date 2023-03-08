@@ -1,7 +1,36 @@
 body{
-    background-color: black;
+ background-color: black;
+    
   }
   
   h1{
-    color: #821d0c;
+    color: #770000;
+    letter-spacing: 2px;
+}
+
+h2 {
+text-align: center;
+color: hsla(0, 100%, 38%, 0.89);
+letter-spacing: 7px;
+height: 90%;
+
+}
+
+.img-fluid {
+  height: 90%;
+  width: 90%;
+}
+img{
+  width:55%;
+  border-radius: 5%;
+
+}
+
+
+.cor1 {
+
+  background-color: #700000;
+}
+.text-decoration-underline {
+  color: white;
 }
