@@ -21,6 +21,14 @@ body{
   background: var(--text-color);
   color: var(--bg-color);
 }
+h1{
+  letter-spacing: 1px;
+  text-align: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto ;
+}
 section{
   padding: 4.5rem 0 1.5rem;
 }
@@ -50,24 +58,25 @@ header{
   color: var(--main-color)
 }
 .navbar{
-  display: flex;
-  column-gap: 5rem;
+display: flex;
+  column-gap: 1rem;
 }
 .navbar li{
   position: relative;
 }
 .navbar a{
+  
   font-size: 1rem;
   font-weight: 500;
   color: var(--bg-color);
 }
 .navbar a::after{
-  content: '';
+  content:"";
   width: 0;
   height: 2px;
   background: var(--main-color);
   position: absolute;
-  bottom: -4px;
+  bottom: -3px;
   left: 0;
   transition: 0.4s all linear;
 }
@@ -82,11 +91,12 @@ header{
   display: none;
 }
 .bnt{
-  padding: 0.7rem 1.4rem;
+  padding: 0.5rem 1.2rem;
   background: var(--main-color);
   color: var(--bg-color);
-  font-weight: 400;
-  border-radius: 0.5rem;
+  font-weight: 500;
+  border-radius: 0.8rem;
+  
 }
 .bnt:hover{
   background: #ff2c1f;
@@ -100,5 +110,26 @@ header{
   background: rgb( 2, 3, 7, 0.4);
 }
 .container img{
-
+position: absolute;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: center;
+z-index: -1;
 }
+.heading{
+  max-width: 968px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--main-color);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.img-fluid{
+  width: 50%;
+  display: flex;
+}
+

@@ -6,51 +6,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>movies marvel</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Link Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-
-
   <!-- box icons -->
-  <link rel="stylesheet" >
+  <link rel="stylesheet" 
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  
+   <!-- Link Swiper's CSS -->
+   <link rel="stylesheet" 
+   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 <body>
   <!-- navbar -->
   <header>
     <!-- home -->
-    <section class="home swiper" id="home">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide container">
-          <img src="img/venom.png" alt="">
-          <div class="home-text"></div>
-          <span>Marvel universe</span>
-          <h1>venom:let there <br> Be carnage</h1>
-          <a href="#" class="bnt">book now</a>
-          <a href="#" class="play">
-            <i class='bx bx-play'></i>
-
-          </a>
-        </div>
-      </div>
-      <!-- box 2-->
-      <div class="swiper-pagination"></div>
-    </section>
     <a href="#" class="logo">
-      <i class='bx bxs-movie' ></i> MOVIES
+   
     </a>
     <div class="bx bx-menu" id="menu-icon"></div>
-     
-     <!-- menu -->
-    <ul class="navbar">
-  <li><a href="#home" class="home-active">home</a></li>
-  <li><a href="#movies">movies</a></li>
-  <li><a href="#coming">coming</a></li>
-  <li><a href="#newsletter">newsletter</a></li>
-  </ul>
 
-  <a href="#" class="bnt">Sign in</a>
-  </header><!-- Swiper JS -->
+
+    <!-- menu -->
+       <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#movies">Movies</a></li>
+        <li><a href="#coming">Coming</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+       </ul>
+       <a href="#" class="bnt">Sign in</a>
+       </header>
+       <!-- home -->
+       <selection class="home swiper" id="home">        
+        <div class="swiper-wrapper">
+          <div class="swiper-slide container">
+            <img src="img/0.jpg" alt="">
+            <div class="home-text">
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,300&display=swap" rel="stylesheet">
+              <span>Marvel universe</span>
+              <h1>VENOM: Let there <br> Be carnage</h1>
+              <a href="#" class="bnt">Book now</a>
+              <a href="#" class="play"> 
+
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+       </selection>
+       <!-- movies -->
+
+       <selection class="movies" id="movies">
+        <h2 class="heading">Opening this week</h2>
+       </selection>
+     <!-- movies conatiner -->
+     <div class="movies-container">
+     
+              <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
   <!-- link to custom JS -->
-<script src="main.js"></script> 
+  <script src="script.js"></script>
  </body>
 </html>
